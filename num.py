@@ -29,4 +29,5 @@ fruits = np.array(["apple", "coconut", "banana", "pineapple"])
 
 fruits= rng.choice(fruits)
 
+
 print(fruits)
