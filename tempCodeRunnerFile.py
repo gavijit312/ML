@@ -1,0 +1,1 @@
+print(rng.integers(low=1, high= 101 , size =(5,2)))
