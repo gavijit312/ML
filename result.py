@@ -14,3 +14,6 @@ pred= model.predict([[6]])
 print(pred)
 print("Slope:", model.coef_)
 print("Intercept:", model.intercept_)
+
+# y = mx + c
+# y = 5x + 35
