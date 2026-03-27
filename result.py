@@ -1,4 +1,5 @@
 from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
 import numpy as np
 
 X  = np.array([[1], [2], [3], [4], [5]])
@@ -9,11 +10,19 @@ model = LinearRegression()
 
 model.fit(X,y)
 
+y_pred = model.predict(X)
 pred= model.predict([[6]])
 
-print(pred)
+print(y_pred)
+# y = mx + c
+# y = 5x + 35 
 print("Slope:", model.coef_)
 print("Intercept:", model.intercept_)
 
-# y = mx + c
-# y = 5x + 35 
+plt.scatter(X, y)
+plt.plot(X, y_pred)
+plt.xlabel("Study Hours")
+plt.ylabel("Marks")
+plt.title("Linear Regression Example")
+plt.show()
+
