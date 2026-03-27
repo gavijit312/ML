@@ -16,4 +16,4 @@ print("Slope:", model.coef_)
 print("Intercept:", model.intercept_)
 
 # y = mx + c
-# y = 5x + 35
+# y = 5x + 35 
