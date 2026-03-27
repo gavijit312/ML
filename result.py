@@ -19,8 +19,11 @@ print(y_pred)
 print("Slope:", model.coef_)
 print("Intercept:", model.intercept_)
 
+#shows actual data points
 plt.scatter(X, y)
+#shows predicted data points and regression line
 plt.plot(X, y_pred)
+
 plt.xlabel("Study Hours")
 plt.ylabel("Marks")
 plt.title("Linear Regression Example")
