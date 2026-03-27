@@ -17,3 +17,4 @@ y_pred = model.predict(X_test)
 pred = model.predict([[40, 5, 40]])
 
 print(y_pred)
+
